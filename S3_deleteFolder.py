@@ -117,9 +117,5 @@ with open('logs.txt', 'r') as in_file:      #converts txt to csv file
         writer = csv.writer(out_file)
         writer.writerows(lines)
 
-# with open("logs.csv") as fp:
-#     mytable = from_csv(fp,delimiter = ',')
-# print(mytable)
-
 print("Program has finished running. Please check the logs.txt file for the status of objects in bucket")
 sys.exit()
