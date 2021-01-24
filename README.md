@@ -3,6 +3,6 @@ Deletes specified folder and objects within those folders and print out a logs.c
 
 Files required:
   -credential.txt(first row will be your access key and second row will be your secret access key)
-  - .csv file with 
+  - .csv file with the list of folder id's to be deleted
   
 
